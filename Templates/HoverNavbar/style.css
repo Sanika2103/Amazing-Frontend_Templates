@@ -1,3 +1,7 @@
+body{
+    background-color: #ed6b5b;
+    color: #3a3e59;
+}
 .brand img{
     height:90px;
     width :85px;
@@ -11,8 +15,10 @@
     font-family:'Times New Roman', Times, serif;
     margin: 15px;
     margin-top: 30px ;
-}.navbar{
+}.navbar a:hover {
     display: flex;
+    background-color: #c36b84;
+    color: #f9ac66;
     
 }
 .from ul {
@@ -35,7 +41,7 @@
     color: rgb(15, 15, 15);
     margin-bottom: 60px;
   }
-  .from a{
+  .from a::backdrop{
       text-decoration: none;
   }
   
@@ -59,6 +65,7 @@
   }
   .drop li {
     display: none;
+    color: #3a3e59;
   }
   .from li:hover .drop li {
     display: block;
@@ -76,4 +83,3 @@
   input[type="checkbox"]{
     display: none;
   }
-  
